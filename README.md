@@ -15,7 +15,9 @@ terraform apply\
 terraform output -json public_ip_address | jq -r '.[] '>out.txt\
 ./get_resources_info.sh
 
-2. Exercise2.txt 
-3. Exercise3.txt  
+2. Exercise2.sh
+ 
+3. Exercise3.sh
+  
 4. Exercise4.txt 
 
