@@ -1,7 +1,6 @@
 #! /bin/bash
 cat out.txt |  sed 's/"//g' | sed 's/,//g' |sed 's/\[//g'  |  sed 's/\]//g'| sed '/^$/d' > result.txt
 
-for line in $(cat result.txt)
 
 
 for line in $(cat result.txt)
