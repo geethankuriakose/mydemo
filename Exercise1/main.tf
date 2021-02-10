@@ -108,8 +108,11 @@ custom_data    = file("~/mydemo/Exercise1/install.sh")
 os_profile_linux_config {
 disable_password_authentication = false
 ssh_keys {
-      path     = "~/.ssh/authorized_keys"
-  	key_data = file("~/.ssh/id_rsa.pub")
+      #path     = "~/.ssh/authorized_keys"
+  	#key_data = file("~/.ssh/id_rsa.pub")
+
+      path     = "/home/geethan/.ssh/authorized_keys"
+  	key_data = file("/home/geethan/.ssh/id_rsa.pub")
     }
 
 }
