@@ -1,0 +1,8 @@
+1. Select Server Manager From Windows Server
+2. Select IIS from server Manager
+3. Select desired ip address from available server list and click on the left mouse button to access the IIS Manager
+4. Select Application Pool from server manager
+5. Select set application pool Default , then we will get a property window
+6. In that window, select Generate process model Event Log Entry section
+7  Change Identity  to ApplicationPoolIdentiry.
+
