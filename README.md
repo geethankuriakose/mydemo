@@ -17,7 +17,7 @@
 
 2. Exercise2.sh /* Elastic Search */ 
  
-3. Exercise3.sh  /* Redis Server */
+3. Exercise3.txt /* Redis Server */
   
 4. Exercise4.txt   /* 503 Exception */
 
